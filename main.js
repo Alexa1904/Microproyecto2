@@ -18,6 +18,37 @@ function ocultar3() {
         x.style.display = "none";
     }
 }
+
+
+function alerta(){
+    var name = document.getElementById("name");
+    var email = document.getElementById("email");
+    var tlf = document.getElementById("tlf");
+    var message = document.getElementById("message");
+    if (name == null || valor.length == 0 || /^\s+$/.test(valor)){
+        return false;
+    }
+    else if (email == null || valor.length == 0 || /^\s+$/.test(valor)){
+        return false;
+    }
+    else if(tlf == null || valor.length == 0 || /^\s+$/.test(valor)){
+        return false;
+    }
+    else if (name == null || valor.length == 0 || /^\s+$/.test(valor)){
+        return false;
+    }
+    else{
+        return true;
+    }
+}
+
+function error(){
+  if (alerta()=true){
+    alert('Debe llenar todos los campos');
+  }
+}
+
 ocultar1();
 ocultar2();
 ocultar3();
+error();
