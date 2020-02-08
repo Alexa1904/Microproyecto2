@@ -1,0 +1,160 @@
+body {
+    background-image: url("https://image.freepik.com/fotos-gratis/pequenas-flores-brancas-em-flor-no-fundo-rosa_23-2147752460.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .navegar{
+     background-color:rgba(255, 110, 180, .4);
+     position: fixed;
+     top:0;
+     left:0;
+     width: 100%;
+ 
+ }
+ 
+ .botones{
+     padding:0;
+ }
+ 
+ .botones li{
+     display: inline-block;
+     padding:10px;
+     padding-left: 98px;
+ }
+ 
+ .bienvenida{
+     background-color:rgba(255, 110, 180, .4); 
+     width: 800px;
+     height:500px;
+     margin:auto;
+     text-align: center;
+     border-radius: 20px;
+     margin-top: 10rem;
+ }
+ 
+ .bienvenida>span{
+     display:inline-block;
+     vertical-align:middle;
+     line-height:normal;
+     margin-top: 5rem;
+     color:white;
+     font-family: 'Poller One', cursive;
+     font-size: 50px;
+ }
+ 
+ #iniciar{
+     width: 80px;
+     height: 45px;
+     text-align: center;
+     margin-bottom: 1rem;
+     margin-top: 3rem;
+     background: white;
+     color:black;
+     
+ 
+ }
+ #iniciar {
+     border-radius: 15px;
+ }
+ a{
+     color:white;
+     text-decoration: none;
+     font-size: 15px;
+     font-family: 'Poller One', cursive;
+ }
+ 
+  .fondo{
+      width: 50rem;
+      height: 30rem;
+      margin: auto;
+      overflow: scroll;
+      background-color: white;
+      margin-top: 3rem;
+      border-radius: 20px;
+      font-size: larger;
+  }
+ 
+  p{
+      margin-left: 2rem;
+      margin-right: 3rem;
+      text-align: justify;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+ 
+ #titulo{
+     text-align: center;
+ }
+ #foto{
+     align-self: center;
+ }
+ h4{
+     text-align: center;
+ }
+ 
+ #instagram{
+ width: 30px;
+ }
+ #facebook{
+ width: 30px;
+ }
+ #whatsapp{
+ width: 35px;
+ }
+ .menu{
+ 
+ }
+ .contacto{
+     width: 400px;
+     height: 500px;
+     display: grid;
+     background-color: white;
+     margin:auto;
+     margin-top: 5rem;
+     border-radius: 20px;
+     filter: drop-shadow(5px 5px 10px #444);
+ }
+ .datos{
+     margin:auto;
+     margin-top: 5rem;
+     display: grid;
+     grid-gap:20px;
+     width: 300px;
+ }
+ 
+ #name{
+     border-radius: 20px;
+     height: 30px;
+ }
+ #tlf{
+     border-radius: 20px;
+     height: 30px;
+ }
+ #email{
+     border-radius: 20px;
+     height: 30px;
+ }
+ #message{
+     border-radius: 20px;
+     height: 30px;
+     height: 100px;
+ }
+ #enviar{
+     width: 100px;
+     text-align: center;
+ }
+ 
+ footer{
+     background-color: white;
+     width: fit-content;
+ }
+ footer ul{
+     list-style: none;
+     padding-left: 1rem;
+ }
+ 
+ #foto{
+     width: 200px;
+     margin-left: 20rem;
+     text-align: center;
+ }
