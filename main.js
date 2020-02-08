@@ -25,16 +25,16 @@ function alerta(){
     var email = document.getElementById("email");
     var tlf = document.getElementById("tlf");
     var message = document.getElementById("message");
-    if (name == null || valor.length == 0 || /^\s+$/.test(valor)){
+    if (name == null || valor.length == 0 || /^\s+$/.test(name)){
         return false;
     }
-    else if (email == null || valor.length == 0 || /^\s+$/.test(valor)){
+    else if (email == null || valor.length == 0 || /^\s+$/.test(email)){
         return false;
     }
-    else if(tlf == null || valor.length == 0 || /^\s+$/.test(valor)){
+    else if(tlf == null || valor.length == 0 || /^\s+$/.test(tlf)){
         return false;
     }
-    else if (name == null || valor.length == 0 || /^\s+$/.test(valor)){
+    else if (message == null || valor.length == 0 || /^\s+$/.test(message)){
         return false;
     }
     else{
