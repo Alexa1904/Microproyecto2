@@ -1,9 +1,9 @@
 function ocultar1() {
-    var x = document.getElementById("contenedor1");
+    var x = document.getElementById("html");
     x.display="none";
 }
 function ocultar2() {
-    var x = document.getElementById("contenedor2");
+    var x = document.getElementById("css");
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
@@ -11,7 +11,7 @@ function ocultar2() {
     }
 }
 function ocultar3() {
-    var x = document.getElementById("contenedor3");
+    var x = document.getElementById("js");
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
