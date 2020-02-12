@@ -1,21 +1,34 @@
 function ocultar1() {
-    var x = document.getElementById("html");
-    x.display="none";
+    var x = document.getElementById("css");
+    var y = document.getElementById("cssresp");
+    var z = document.getElementById("jsresp");
+    var p = document.getElementById("htmlresp");
+    if (y.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "block";
+    } else {
+        y.style.display = "none";
+    }
 }
 function ocultar2() {
-    var x = document.getElementById("css");
-    if (x.style.display === "none") {
+    var x = document.getElementById("html");
+    var y = document.getElementById("htmlresp")
+    var z = document.getElementById("jsresp");
+    if (y.style.display === "none") {
         x.style.display = "block";
+        y.style.display = "block";
     } else {
-        x.style.display = "none";
+        y.style.display = "none";
     }
 }
 function ocultar3() {
     var x = document.getElementById("js");
-    if (x.style.display === "none") {
+    var y = document.getElementById("jsresp")
+    if (y.style.display === "none") {
         x.style.display = "block";
+        y.style.display = "block";
     } else {
-        x.style.display = "none";
+        y.style.display = "none";
     }
 }
 

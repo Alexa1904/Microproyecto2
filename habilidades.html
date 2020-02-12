@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poller+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="todo">
+  <div class="todo">
     <div id="html">
         <div id="stage">
           <div id="shape" class="cube backfaces">
@@ -25,9 +25,8 @@
             <div class="plane ten">100</div>
           </div>
         </div>
-        <button id="html" onclick="ocultar1()">HTML</button>
-      </div>
-      <div id="css">
+    </div>
+    <div id="css">
         <div id="stage">
           <div id="shape" class="cube backfaces">
             <div class="plane one">10</div>
@@ -42,9 +41,8 @@
             <div class="plane ten">100</div>
           </div>
         </div>
-        <button id="css" onclick="ocultar2()">CSS</button>
-      </div>
-      <div id="js">
+    </div>  
+    <div id="js">
         <div id="stage">
           <div id="shape" class="cube backfaces">
             <div class="plane one">10</div>
@@ -60,8 +58,17 @@
           </div>
         </div>
       </div>
+    </div>   
+    <div class="botones">
       <button id="js" onclick="ocultar3()">JS</button>
-    </div>    
+      <button id="html" onclick="ocultar2()">HTML</button>
+      <button id="css" onclick="ocultar1()">CSS</button>
+    </div> 
+    <div class="respuesta">
+      <div id="jsresp">10</div>
+      <div id="htmlresp">80</div>
+      <div id="cssresp">70</div>
+    </div>
 </body>
 <script src="main.js"></script> 
 </html>
